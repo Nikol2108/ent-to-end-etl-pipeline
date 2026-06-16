@@ -43,13 +43,16 @@ Linear execution showing the successful flow of data between tasks.
 ### 📈 Power BI Analytics Dashboard
 I created a multi-page Power BI report connecting directly to the transformed AWS PostgreSQL database. The visuals explore artist popularity, genre distributions, album release trends, and explicit content analysis over time.
 
-<p align="center">
-  <img src="Artist Analysis.jpeg" width="45%" />
-  <img src="Album Analysis.jpeg" width="45%" />
-  <br>
-  <img src="/Relationship Analysis.jpeg" width="45%" />
-  <img src="/Time Analysis&Forecast.jpeg" width="45%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="powerbi_1.png" width="300px" /></td>
+    <td align="center"><img src="powerbi_2.png" width="300px" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="powerbi_3.png" width="300px" /></td>
+    <td align="center"><img src="powerbi_4.png" width="300px" /></td>
+  </tr>
+</table>
 
 
 
