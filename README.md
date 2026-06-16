@@ -38,15 +38,17 @@ The pipeline follows a linear Extract → Transform → Load pattern:
 ### Airflow DAG Workflow
 
 Linear execution showing the successful flow of data between tasks.
-![Airflow DAG Workflow](airflow_dag.jpg)
+<tr>
+    <td align="center"><img src="airflow_dag.jpg.jpeg" width="500px" /></td>
+  </tr>
 
 ### 📈 Power BI Analytics Dashboard
 I created a multi-page Power BI report connecting directly to the transformed AWS PostgreSQL database. The visuals explore artist popularity, genre distributions, album release trends, and explicit content analysis over time.
 
 <table align="center">
   <tr>
-    <td align="center"><img src="Artist Analysis.jpeg" width="300px" /></td>
-    <td align="center"><img src="Album Analysis.jpeg" width="300px" /></td>
+    <td align="center"><img src="Artist Analysis.jpeg" width="400px" /></td>
+    <td align="center"><img src="Album Analysis.jpeg" width="400" /></td>
   </tr>
   <tr>
     <td align="center"><img src="Relationship Analysis.jpeg" width="300px" /></td>
