@@ -45,12 +45,12 @@ I created a multi-page Power BI report connecting directly to the transformed AW
 
 <table align="center">
   <tr>
-    <td align="center"><img src="powerbi_1.png" width="300px" /></td>
-    <td align="center"><img src="powerbi_2.png" width="300px" /></td>
+    <td align="center"><img src="Artist Analysis.jpeg" width="300px" /></td>
+    <td align="center"><img src="Album Analysis.jpeg" width="300px" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="powerbi_3.png" width="300px" /></td>
-    <td align="center"><img src="powerbi_4.png" width="300px" /></td>
+    <td align="center"><img src="Relationship Analysis.jpeg" width="300px" /></td>
+    <td align="center"><img src="Time Analysis&Forecast.jpeg" width="300px" /></td>
   </tr>
 </table>
 
@@ -84,20 +84,3 @@ Access the Airflow UI at `http://localhost:8080`.
 
 * **Idempotency:** Ensures the pipeline can be run multiple times safely.
 * **Integrity Checks:** The transformation layer explicitly validates critical fields before loading.
-
-```
-
----
-
-### הפקודות להעלאה סופית (להריץ בטרמינל):
-
-אחרי ששמרת את הקובץ עם התוכן הזה, תריצי את זה כדי לעדכן את הגיטהאב:
-
-```bash
-git add .
-git commit -m "Restore and update full README with visualizations"
-git push -f origin main
-
-```
-
-**טיפ:** אם שמות קבצי התמונות שלך (ה-PowerBI) שונים ממה שכתבתי בקוד (`powerbi_1.png` וכו'), פשוט תשני את השמות בקוד למה ששמור אצלך בתיקייה. עכשיו הכל יהיה מתועד ומושלם!
