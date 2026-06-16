@@ -40,19 +40,19 @@ The pipeline follows a linear Extract → Transform → Load pattern:
 Linear execution showing the successful flow of data between tasks.
 <tr>
     <td align="center"><img src="airflow_dag.jpg.jpeg" width="500px" /></td>
-  </tr>
+</tr>
 
 ### 📈 Power BI Analytics Dashboard
-I created a multi-page Power BI report connecting directly to the transformed AWS PostgreSQL database. The visuals explore artist popularity, genre distributions, album release trends, and explicit content analysis over time.
+I created a multi-page Power BI report connecting directly to the transformed AWS PostgreSQL database.
 
 <table align="center">
   <tr>
-    <td align="center"><img src="Artist Analysis.jpeg" width="400px" /></td>
-    <td align="center"><img src="Album Analysis.jpeg" width="400" /></td>
+    <td align="center"><img src="Artist Analysis.jpeg" width="500px" /></td>
+    <td align="center"><img src="Album Analysis.jpeg" width="500px" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="Relationship Analysis.jpeg" width="300px" /></td>
-    <td align="center"><img src="Time Analysis&Forecast.jpeg" width="300px" /></td>
+    <td align="center"><img src="Relationship Analysis.jpeg" width="500px" /></td>
+    <td align="center"><img src="Time Analysis&Forecast.jpeg" width="500px" /></td>
   </tr>
 </table>
 
@@ -86,3 +86,9 @@ Access the Airflow UI at `http://localhost:8080`.
 
 * **Idempotency:** Ensures the pipeline can be run multiple times safely.
 * **Integrity Checks:** The transformation layer explicitly validates critical fields before loading.
+
+
+
+
+
+
