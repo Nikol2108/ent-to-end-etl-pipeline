@@ -1,0 +1,20 @@
+# Environment variables (Critical for security)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Airflow logs and archives
+logs/
+log/
+dags_archive/
+
+# Data files (Generated dynamically during ETL)
+data/
+*.csv
+*.json
+
+# OS generated files
+.DS_Store
+
