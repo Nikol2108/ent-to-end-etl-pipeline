@@ -67,8 +67,8 @@ I created a multi-page Power BI report connecting directly to the transformed AW
 ### 2. Environment Setup
 
 ```bash
-git clone [https://github.com/Nikol2108/ent-to-end-etl-pipeline.git](https://github.com/Nikol2108/ent-to-end-etl-pipeline.git)
-cd ent-to-end-etl-pipeline
+git clone [https://github.com/Nikol2108/end-to-end-etl-pipeline.git](https://github.com/Nikol2108/end-to-end-etl-pipeline.git)
+cd end-to-end-etl-pipeline
 cp .env.example .env
 
 ```
