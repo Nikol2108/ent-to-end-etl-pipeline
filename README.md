@@ -47,12 +47,12 @@ I created a multi-page Power BI report connecting directly to the transformed AW
 
 <table align="center">
   <tr>
-    <td align="center"><img src="Artist Analysis.jpeg" width="500px" /></td>
-    <td align="center"><img src="Album Analysis.jpeg" width="500px" /></td>
+    <td align="center"><img src="assets/Artist Analysis.jpeg" width="500px" /></td>
+    <td align="center"><img src="assets/Album Analysis.jpeg" width="500px" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="Relationship Analysis.jpeg" width="500px" /></td>
-    <td align="center"><img src="Time Analysis&Forecast.jpeg" width="500px" /></td>
+    <td align="center"><img src="assets/Relationship Analysis.jpeg" width="500px" /></td>
+    <td align="center"><img src="assets/Time Analysis&Forecast.jpeg" width="500px" /></td>
   </tr>
 </table>
 
